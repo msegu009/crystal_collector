@@ -1,0 +1,30 @@
+.stones{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+	margin-top: 100px;
+}
+
+.stone{
+	border-radius: 4px;
+	height: 200px;
+	width: 200px;
+}
+
+img{
+	width: 50px;
+}
+
+#random_limit, #counter, #wins, #losses, #text{
+	font-size: 30px;
+	color: white;
+}
+
+body {
+	background-image: url("../images/thanos.gif");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #523130;
+
+}
